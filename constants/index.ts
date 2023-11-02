@@ -1,2 +1,2 @@
-export const appName = 'Vitesse for Nuxt 3'
-export const appDescription = 'Vitesse for Nuxt 3'
+export const appName = 'Кърти, чисти, извозва - Хамалски услуги'
+export const appDescription = '"Кърти, чисти, извозва". Нашите услуги обхващат професионалното къртене и демонтаж на строителни обекти, комплексно почистване след тях, както и отговорното управление на отпадъци.'
