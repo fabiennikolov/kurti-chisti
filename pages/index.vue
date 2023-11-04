@@ -15,7 +15,7 @@
   <div class="mx-auto mt-10 max-w-300 px-15 py-10 leading-6 space-y-14">
     <section class="grid gap-10 md:grid-cols-[1.5fr_1fr]">
       <div lt-md="text-center text-end">
-        <h3 class="font-bold= mb-4 text-2xl uppercase">
+        <h3 class="mb-4 text-2xl font-bold uppercase">
           Къртачни услуги
         </h3>
         <p class="lt-md:text-3.5">
