@@ -12,4 +12,28 @@
       </a>
     </div>
   </div>
+  <div class="mx-auto mt-10 max-w-300 px-15 py-10 leading-6 space-y-14">
+    <section class="grid gap-10 md:grid-cols-[1.5fr_1fr]">
+      <div lt-md="text-center text-end">
+        <h3 class="font-bold= mb-4 text-2xl uppercase">
+          Къртачни услуги
+        </h3>
+        <p class="lt-md:text-3.5">
+          Къртачните услуги включват изкопаване, демолиция, извозване на материали и други строителни дейности, извършвани от специализирани фирми и индивидуални изпълнители със специална техника и оборудване. Те са от съществено значение за подготовката на строителни площадки и реализацията на различни проекти в строителството и инфраструктурата.
+        </p>
+      </div>
+      <img src="/sectionimg.png" width="400" lt-md="justify-self-center rounded-2">
+    </section>
+    <section class="grid gap-10 md:grid-cols-[1fr_1.5fr]">
+      <img src="/moving.jpg" width="400" lt-md="justify-self-center rounded-2">
+      <div lt-md="text-center" text-start="">
+        <h3 uppercase="" text-2xl="" mb-4="" font-bold="">
+          Извозващи услуги
+        </h3>
+        <p class="lt-md:text-3.5">
+          Извозващи услуги предоставят удобен и ефективен начин за пренос на различни стоки или предмети от едно място до друго, като осигуряват бърз и надежден транспорт. Тези услуги предоставят удовлетворение на клиентите, като ги освобождават от грижите за пренос и ги насочват към другите аспекти на техния живот или бизнес.
+        </p>
+      </div>
+    </section>
+  </div>
 </template>
