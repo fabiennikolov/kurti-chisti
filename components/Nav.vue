@@ -25,7 +25,7 @@ function toggleMobileMenu() {
       <div class="flex items-center justify-between space-x-4">
         <button class="text-white lg:hidden" @click="toggleMobileMenu">
           <svg
-            class=".light:text-black" xmlns="http://www.w3.org/2000/svg"
+            class="" xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
             viewBox="0 0 24 24"
