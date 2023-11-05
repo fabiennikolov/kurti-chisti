@@ -12,13 +12,13 @@ function toggleMobileMenu() {
 </script>
 
 <template>
-  <div class="sticky top-0 z-100 border-b border-b-white/9 bg-black/60 backdrop-blur-sm">
-    <div class="mx-auto w-full flex items-center justify-between px-4 py-4 container sm:px-12">
+  <div class="sticky top-0 z-100 border-b border-b-white/40 bg-gray-900/90 py-2 backdrop-blur-sm">
+    <div class="mx-auto w-full flex justify-between px-4 container sm:px-12">
       <div class="flex items-center justify-center gap-8 lg:text-1rem">
         <NuxtLink to="/">
           <img src="@/logo.webp" class="inline-block h-10 w-12 sm:h-16 sm:w-16">
         </NuxtLink>
-        <p class="text-3 font-bold text-blue/95 sm:mt-0 sm:text-5">
+        <p class="text-3 font-bold text-white sm:mt-0 sm:text-5">
           Кърти, чисти и извозва в град София и околността
         </p>
       </div>
@@ -45,7 +45,7 @@ function toggleMobileMenu() {
             </CoolButton>
           </a>
           <template v-for="item in menuItems" :key="item.id">
-            <NuxtLink :to="item.route" class="b-1 b-white rounded-md px-4 py-2 text-3 font-bold text-white/80 xl:text-4 hover:(.dark:bg-white/9 .light:bg-black/20)" @click="toggleMobileMenu">
+            <NuxtLink :to="item.route" class="px-4 py-2 text-3 font-bold text-white/80 xl:text-4 hover:text-white/90" @click="toggleMobileMenu">
               {{ item.text }}
             </NuxtLink>
           </template>
@@ -55,7 +55,7 @@ function toggleMobileMenu() {
     <div v-if="showMobileMenu" class="grid b-white/9 p-4 lg:hidden space-y-2">
       <a class="inline-block w-64 items-center justify-center b-1 b-white rounded-md bg-blue-600 px-4 py-2" href="tel:+359879883894">Обадете се сега: 0879883894</a>
       <template v-for="item in menuItems" :key="item.id">
-        <NuxtLink :to="item.route" class="b-b-1 text-4 font-bold text-white/80 sm:px-4 hover:(.dark:bg-white/9 .light:bg-black/20)" @click="toggleMobileMenu">
+        <NuxtLink :to="item.route" class="b-b-1 text-4 font-bold text-white/80 sm:px-4" @click="toggleMobileMenu">
           {{ item.text }}
         </NuxtLink>
       </template>

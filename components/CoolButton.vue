@@ -9,12 +9,12 @@ withDefaults(defineProps<{
 
 <template>
   <button
-    class="group relative isolate overflow-hidden px-6 py-2 btn"
+    class="group relative isolate overflow-hidden rounded-md bg-gray px-6 py-2"
     :class="{ 'text-white border-1 border-white': intent !== 'unstyled' }"
   >
     <div
       class="absolute -bottom-4 -left-10 -right-10 -top-4 -z-1"
-      :class="[{ 'bg-blue text-[#222222]': !overlayClass }, overlayClass]"
+      :class="[{ ' text-[#222222]': !overlayClass }, overlayClass]"
       rounded="50%"
       translate-y="100%" group-hover="translate-y-0"
       flex items-center justify-center transition-all-500

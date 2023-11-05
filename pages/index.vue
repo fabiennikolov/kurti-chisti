@@ -5,11 +5,16 @@
       <h1 class="mx-auto mb-12 flex px-4 text-center text-4xl font-bold font-bold text-white/90 sm:text-5xl">
         Кърти чисти и извозва в град София и околността
       </h1>
-      <a class="text-md mx-auto w-fit flex font-bold sm:text-xl" href="tel:+359879883894">
-        <CoolButton>
-          Обадете се сега: 08798830894
+      <div class="grid grid-cols-2 mx-a w-160 items-center justify-center">
+        <a class="mx-auto w-fit flex px-4 text-4 text-4 font-bold sm:text-xl" href="tel:+359879883894">
+          <CoolButton>
+            Обадете се сега: 08798830894
+          </CoolButton>
+        </a>
+        <CoolButton class="mx-auto flex py-5 text-4 text-4 font-bold sm:text-xl">
+          Цени
         </CoolButton>
-      </a>
+      </div>
     </div>
   </div>
   <div class="mx-auto mt-10 max-w-300 px-15 py-10 leading-6 space-y-14">
@@ -35,5 +40,62 @@
         </p>
       </div>
     </section>
+    <table class="w-full table-auto">
+      <thead>
+        <tr>
+          <th class="px-4 py-2 text-left text-gray-900">
+            Вид Услуга
+          </th>
+          <th class="px-4 py-2 text-left text-gray-900">
+            Мерна единица
+          </th>
+          <th class="px-4 py-2 text-left text-gray-900">
+            Цена
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="px-4 py-2 text-gray-700">
+            Apple MacBook Pro 13"
+          </td>
+          <td class="px-4 py-2 text-gray-700">
+            кв.м
+          </td>
+        </tr>
+        <tr>
+          <td class="px-4 py-2 text-gray-700">
+            Apple AirPods Pro
+          </td>
+          <td class="px-4 py-2 text-gray-700">
+            кв.м
+          </td>
+        </tr>
+        <tr>
+          <td class="px-4 py-2 text-gray-700">
+            Samsung Galaxy S22 Ultra
+          </td>
+          <td class="px-4 py-2 text-gray-700">
+            кв.м
+          </td>
+        </tr>
+        <tr>
+          <td class="px-4 py-2 text-gray-700">
+            Sony PlayStation 5
+          </td>
+          <td class="px-4 py-2 text-gray-700">
+            кв.м
+          </td>
+        </tr>
+        <tr>
+          <td class="px-4 py-2 text-gray-700">
+            LG OLED C1 TV
+          </td>
+          <td class="px-4 py-2 text-gray-700">
+            1
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </template>
