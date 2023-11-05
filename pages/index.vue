@@ -5,9 +5,9 @@
       <h1 class="mx-auto mb-12 flex px-4 text-center text-4xl font-bold font-bold text-white/90 sm:text-5xl">
         Кърти чисти и извозва в град София и околността
       </h1>
-      <a class="mx-auto w-fit flex text-2xl font-bold sm:text-4xl" href="tel:+359879883894">
+      <a class="text-md mx-auto w-fit flex font-bold sm:text-xl" href="tel:+359879883894">
         <CoolButton>
-          0879883894
+          Обадете се сега: 08798830894
         </CoolButton>
       </a>
     </div>
