@@ -1,62 +1,46 @@
-<script setup lang="ts">
-interface FaqItem {
-  question: string
-  answer: string
-  showAnswer: boolean
-}
-
-const faqItems: Ref<FaqItem[]> = ref([
-  {
-    question: 'How do I register my team ?',
-    answer: 'You can easily register your team by filling out the registration form or contacting us through our official Discord channel.',
-    showAnswer: false,
-  },
-  {
-    question: 'Am I eligible for rewards ?',
-    answer: 'To check your eligibility for rewards, please refer to the rules and guidelines provided in our Discord channel.',
-    showAnswer: false,
-  },
-  {
-    question: 'What kind of rewards can I earn ?',
-    answer: 'We offer a variety of exciting rewards, including cash prizes, in-game currency, and much more!',
-    showAnswer: false,
-  },
-
-])
-
-function toggleAnswer(faq: FaqItem) {
-  faq.showAnswer = !faq.showAnswer
-}
-</script>
-
 <template>
-  <div class="mx-auto mt-15 max-w-6xl p-6">
-    <h1 class="mb-10 text-3xl font-semibold">
-      Frequently Asked Questions
-    </h1>
-    <ul class="space-y-6">
-      <li v-for="(faq, index) in faqItems" :key="index">
-        <h2
-          class="cursor-pointer rounded-3 px-4 py-2 text-lg duration-200 .dark:bg-white/9 .light:bg-gray-300 .dark:hover:bg-white/12 .light:hover-bg-gray-100"
-          @click="toggleAnswer(faq)"
-        >
-          {{ faq.question }}
-          <UnoIcon
-            v-if="faq.showAnswer"
-            icon="i-ic-round-minus"
-            class="float-right mt1"
-          />
-          <UnoIcon
-            v-else
-            icon="i-ic-round-add"
-            class="float-right mt1"
-          />
-        </h2>
-        <p v-if="faq.showAnswer" class="ml2 mt-3 text-gray-300">
-          {{ faq.answer }}
-        </p>
-      </li>
-    </ul>
-  </div>
-  <Newsletter />
+  <section class="dark:bg-gray-800 dark:text-gray-100">
+    <div class="mx-auto flex flex-col justify-center p-4 container md:p-8">
+      <p class="p-2 text-center text-sm font-medium uppercase">
+        как работим
+      </p>
+      <h1 class="mb-12 text-center text-4xl font-bold sm:text-5xl">
+        Често задавани въпроси
+      </h1>
+      <div class="grid gap-10 md:grid-cols-2 md:gap-8 sm:p-3 lg:px-12 xl:px-32">
+        <div>
+          <h3 class="font-semibold">
+            Lorem ipsum dolor sit amet.
+          </h3>
+          <p class="mt-1 dark:text-gray-400">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold">
+            Lorem ipsum dolor sit amet.
+          </h3>
+          <p class="mt-1 dark:text-gray-400">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold">
+            Lorem ipsum dolor sit amet.
+          </h3>
+          <p class="mt-1 dark:text-gray-400">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold">
+            Lorem ipsum dolor sit amet.
+          </h3>
+          <p class="mt-1 dark:text-gray-400">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>

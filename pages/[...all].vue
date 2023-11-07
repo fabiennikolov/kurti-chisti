@@ -3,14 +3,17 @@ const router = useRouter()
 </script>
 
 <template>
-  <main p="x4 y10" text="center teal-700 dark:gray-200">
-    <div text-4xl>
-      <div i-carbon-warning inline-block />
+  <main class="mx-a mt-12 text-center">
+    <div class="text-4xl">
+      <h1 class="mb-12 text-24 font-extrabold text-gray-800">
+        404
+      </h1>
+      <div class="inline-block" i-carbon-warning />
     </div>
-    <div>Not found</div>
+    <div>Страницата не е намерена</div>
     <div>
-      <button text-sm btn m="3 t8" @click="router.back()">
-        Back
+      <button class="mt3 rounded-md bg-gray-700 px-4 py-2 text-sm text-white" @click="router.back()">
+        Назад
       </button>
     </div>
   </main>
