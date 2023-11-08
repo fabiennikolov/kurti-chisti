@@ -10,34 +10,34 @@
       <div class="grid gap-10 md:grid-cols-2 md:gap-8 sm:p-3 lg:px-12 xl:px-32">
         <div>
           <h3 class="font-semibold">
-            Lorem ipsum dolor sit amet.
+            Какво трябва да подготвя клиентът преди пристигането на къртачната фирма?
           </h3>
           <p class="mt-1 dark:text-gray-400">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!
+            Преди пристигането на къртачната фирма, клиентите обикновено трябва да освободят областите, които трябва да бъдат почистени от лични вещи и препятствия. Също така, ако има специални изисквания или предпочитания за почистване (например използване на определени почистващи продукти), това трябва да бъде предварително уговорено.
           </p>
         </div>
         <div>
           <h3 class="font-semibold">
-            Lorem ipsum dolor sit amet.
+            Какъв е минималният период за предварително уговорено почистване и как се прави запазването?
           </h3>
           <p class="mt-1 dark:text-gray-400">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!
+            За мнозина къртачни фирми минималният период за предварително уговорено почистване е обикновено на стандартен или седмичен базис, но някои предлагат и по-гъвкави опции. Запазването обикновено се извършва чрез телефон, имейл или онлайн платформа, където клиентът уговаря удобната дата и час за почистване.
           </p>
         </div>
         <div>
           <h3 class="font-semibold">
-            Lorem ipsum dolor sit amet.
+            Какво да направя, ако имам специфични изисквания към почистването?
           </h3>
           <p class="mt-1 dark:text-gray-400">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!
+            Ако имате специфични изисквания към почистването, трябва да ги предоставите на къртачната фирма предварително. Те могат да адаптират методите и почистващите продукти, за да отговорят на вашите нужди, например да използват хипоалергенни средства.
           </p>
         </div>
         <div>
           <h3 class="font-semibold">
-            Lorem ipsum dolor sit amet.
+            Каква е процедурата при загуба на предмети или повреди по време на почистването?
           </h3>
           <p class="mt-1 dark:text-gray-400">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!
+            Къртачните фирми обикновено имат политика за уведомление в случай на загуба или повреда на предмети по време на почистването. Клиентите трябва да ги уведомят веднага след забелязване на такива инциденти, и фирмата ще предприеме действия за решаване на проблема, като например заплащане на компенсация.
           </p>
         </div>
       </div>
