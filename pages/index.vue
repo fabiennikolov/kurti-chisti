@@ -29,10 +29,10 @@
           Къртачните услуги включват изкопаване, демолиция, извозване на материали и други строителни дейности, извършвани от специализирани фирми и индивидуални изпълнители със специална техника и оборудване. Те са от съществено значение за подготовката на строителни площадки и реализацията на различни проекти в строителството и инфраструктурата.
         </p>
       </div>
-      <img src="/sectionimg.png" width="400" lt-md="justify-self-center rounded-2">
+      <img src="/sectionimg.png" width="626" height="417" lt-md="justify-self-center rounded-2">
     </section>
     <section class="grid gap-4 md:grid-cols-[1fr_1.5fr]">
-      <img src="/moving.jpg" width="400" lt-md="justify-self-center rounded-2 md:order-first order-last">
+      <img src="/moving.jpg" width="626" height="417" lt-md="justify-self-center rounded-2 md:order-first order-last">
       <div lt-md="text-center" text-start="">
         <h3 class="mb-4 text-2xl font-bold uppercase">
           Извозващи услуги
