@@ -1,12 +1,12 @@
 <template>
   <div class="relative w-full px-12 py-28">
-    <div class="relative z-10 mx-auto h-auto w-fit rounded-lg bg-transparent px-5 py-24 text-center opacity-75 lg:bg-black md:bg-transparent md:py-24">
-      <h1 class="font-display mb-12 text-center text-3xl font-bold text-white lg:text-5xl md:text-4xl xl:text-6xl">
-        Кърти Чисти Извозва София
+    <div class="relative z-10 mx-auto h-auto w-fit rounded-lg bg-transparent px-2 py-24 text-center md:py-24">
+      <h1 class="mb-12 text-center text-5xl font-bold">
+        Кърти Чисти Извозва
       </h1>
       <a class="mx-auto w-fit flex px-4 text-2xl font-bold" href="tel:+359879883894">
         <button class="rounded-md bg-gray-200 px-4 py-2 font-bold text-black ring-2 ring-black duration-300 hover:bg-gray-400">
-          Обадете се сега: 08798830894
+          Обадете се сега
         </button>
       </a>
     </div>
