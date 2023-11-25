@@ -10,7 +10,7 @@
         </button>
       </a>
     </div>
-    <img alt="KVM background image" width="1905" height="700" src="/background.jpg" class="absolute inset-0 h-full w-full object-cover">
+    <img alt="KVM background image" width="1905" height="700" src="~/assets/images/background.jpg" class="absolute inset-0 h-full w-full object-cover">
   </div>
   <div class="mx-auto bg-gray-300 p-4 text-5 xl:p-12">
     <div class="mx-auto max-w-5xl space-y-3">
@@ -40,10 +40,10 @@
           Къртачните услуги включват изкопаване, демолиция, извозване на материали и други строителни дейности, извършвани от специализирани фирми и индивидуални изпълнители със специална техника и оборудване. Те са от съществено значение за подготовката на строителни площадки и реализацията на различни проекти в строителството и инфраструктурата.
         </p>
       </div>
-      <img src="/sectionimg.png" width="626" height="417" class="justify-self-center rounded-lg">
+      <img src="~/assets/images/sectionimg.png" width="626" height="417" class="justify-self-center rounded-lg">
     </section>
     <section class="grid gap-4 md:grid-cols-[1fr_1.5fr]">
-      <img src="/moving.jpg" width="626" height="417" class="order-last justify-self-center rounded-lg md:order-first">
+      <img src="~/assets/images/moving.jpg" width="626" height="417" class="order-last justify-self-center rounded-lg md:order-first">
       <div>
         <h3 class="mb-4 font-bold uppercase">
           Извозващи услуги

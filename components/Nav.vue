@@ -18,7 +18,7 @@ export default {
     <div class="mx-auto max-w-6xl px-4">
       <nav class="flex items-center justify-between py-4">
         <NuxtLink to="/" class="inline h-14 w-14">
-          <img src="logo.svg" alt="Лого на Кърти чисти и извозва">
+          <img src="~/assets/images/logo.svg" alt="Лого на Кърти чисти и извозва">
         </NuxtLink>
         <ul v-show="!open" class="hidden lg:w-auto lg:flex lg:items-center lg:space-x-12">
           <li>
@@ -98,7 +98,7 @@ export default {
       >
         <div class="flex justify-between px-5 py-2">
           <NuxtLink to="/" class="inline h-14 w-14">
-            <img src="logo.svg" alt="Лого на Кърти чисти и извозва">
+            <img src="~/assets/images/logo.svg" alt="Лого на Кърти чисти и извозва">
           </NuxtLink>
           <button class="rounded-md text-white lg:hidden" @click="open = false">
             <svg

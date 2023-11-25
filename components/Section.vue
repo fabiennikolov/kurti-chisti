@@ -6,21 +6,21 @@
           <div class="flex flex-wrap">
             <div class="w-full px-4 md:w-1/2">
               <img
-                src="/cleaning.jpg" alt=""
+                src="~/assets/images/cleaning.jpg" alt=""
                 class="mb-6 h-80 w-full rounded-lg object-cover"
               >
               <img
-                src="/bus.jpg" alt=""
+                src="~/assets/images/bus.jpg" alt=""
                 class="h-80 w-full rounded-lg object-cover"
               >
             </div>
             <div class="w-full px-4 xl:mt-11 md:w-1/2">
               <img
-                src="/sectionimg.png" alt=""
+                src="~/assets/images/sectionimg.png" alt=""
                 class="mb-6 h-80 w-full rounded-lg object-cover"
               >
               <img
-                src="/sectionimg2.png" alt=""
+                src="~/assets/images/sectionimg2.png" alt=""
                 class="h-80 w-full rounded-lg object-cover"
               >
             </div>
