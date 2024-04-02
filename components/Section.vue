@@ -1,10 +1,10 @@
 <template>
-  <section class="font-poppins flex items-center py-20 dark:bg-gray-800">
-    <div class="mx-auto max-w-6xl flex-1 justify-center px-4 py-4 lg:py-6 md:px-6">
+  <section class="font-poppins flex items-center sm:mt-12 dark:bg-gray-800">
+    <div class="mx-auto max-w-6xl flex-1 justify-center px-4 py-4">
       <div class="flex flex-wrap items-center">
-        <div class="mb-10 w-full px-4 lg:mb-8 xl:w-1/2">
+        <div class="mb-10 w-full lg:mb-8 xl:w-1/2">
           <div class="flex flex-wrap">
-            <div class="w-full px-4 md:w-1/2">
+            <div class="w-full md:w-1/2 sm:px-4">
               <img
                 width="273" height="183"
                 src="~/assets/images/cleaning.jpg" alt="Услуга чистене"
@@ -13,10 +13,10 @@
               <img
                 width="4128" height="2322"
                 src="~/assets/images/bus.jpg" alt="Услуга Превоз"
-                class="h-80 w-full rounded-lg object-cover"
+                class="mb-6 h-80 w-full rounded-lg object-cover"
               >
             </div>
-            <div class="w-full px-4 xl:mt-11 md:w-1/2">
+            <div class="w-full xl:mt-11 md:w-1/2">
               <img
                 width="626" height="417"
                 src="~/assets/images/sectionimg.png" alt="Снимка на Кърти-чисти-извозва"
@@ -30,7 +30,7 @@
             </div>
           </div>
         </div>
-        <div class="mb-10 w-full px-4 lg:mb-8 xl:w-1/2">
+        <div class="mb-10 w-full lg:mb-8 xl:w-1/2 sm:px-4">
           <span class="text-3xl text-5xl font-semibold text-gray-700">Защо да изберете нас</span>
           <h2 class="mb-4 mt-2 text-2xl font-bold text-gray-700 dark:text-gray-300">
             Оставете тежката работа на нас !

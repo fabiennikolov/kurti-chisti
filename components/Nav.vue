@@ -63,7 +63,8 @@ export default {
               Обадете се сега: 08798830894
             </button>
           </a>
-          <a href="https://www.facebook.com/profile.php?id=61553176502982" target="_blank" class="text-gray-400 hover:text-gray-300">
+          <a href="https://www.facebook.com/profile.php?id=61553176502982" target="_blank" aria-label="Visit our Facebook profile" class="text-gray-400" mr-4>
+
             <svg
               xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
               class="bi bi-facebook" viewBox="0 0 16 16"
@@ -74,7 +75,7 @@ export default {
             </svg>
           </a>
 
-          <a href="https://www.instagram.com/hblagoev21/" target="_blank" class="text-gray-400 hover:text-gray-300">
+          <a href="https://www.instagram.com/hblagoev21/" target="_blank" aria-label="Follow us on Instagram" class="text-gray-400 hover:text-gray-300">
             <svg
               xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
               class="bi bi-instagram" viewBox="0 0 16 16"
@@ -141,7 +142,7 @@ export default {
         </ul>
         <div class="my-7 border-t border-gray-800 dark:border-gray-400" />
         <div class="flex items-center px-5 lg:hidden">
-          <a href="https://www.facebook.com/profile.php?id=61553176502982" target="_blank" class="mr-4 text-gray-400">
+          <a href="https://www.facebook.com/profile.php?id=61553176502982" target="_blank" aria-label="Visit our Facebook profile" class="text-gray-400" mr-4>
             <svg
               xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
               class="bi bi-facebook" viewBox="0 0 16 16"
@@ -161,7 +162,7 @@ export default {
               />
             </svg>
           </a>
-          <a href="https://www.instagram.com/hblagoev21/" target="_blank" class="mr-4 text-gray-400">
+          <a href="https://www.instagram.com/hblagoev21/" target="_blank" aria-label="Follow us on Instagram" class="mr-4 text-gray-400">
             <svg
               xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
               class="bi bi-instagram" viewBox="0 0 16 16"

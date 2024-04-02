@@ -1,3 +1,4 @@
+import process from 'node:process'
 import { pwa } from './config/pwa'
 import { appDescription } from './constants/index'
 
@@ -11,6 +12,10 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     '@nuxtjs/seo',
   ],
+
+  site: {
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'http://localhost:3000',
+  },
 
   experimental: {
     payloadExtraction: false,

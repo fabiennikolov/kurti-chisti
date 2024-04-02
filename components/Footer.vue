@@ -5,7 +5,9 @@
         <div class="mx-auto max-w-6xl flex-1 justify-center px-4 py-2 lg:py-0">
           <div class="flex flex-wrap py-4 -mx-3">
             <div class="mb-7 w-full px-4 lg:mb-0 lg:w-4/12 md:w-1/2">
-              <a href="#" class="inline-block pb-2 text-lg font-bold text-gray-300">За фирмата</a>
+              <p class="inline-block pb-2 text-lg font-bold text-gray-300">
+                За фирмата
+              </p>
               <div class="mb-4 w-16 border-b-2 border-gray-200 dark:border-gray-600" />
               <p class="leading-6 text-gray-300 lg:w-64">
                 Хамали 8 е нова фирма, предлагаща хамалски услуги в София и национално.
@@ -41,14 +43,19 @@
               <div class="mb-4 w-16 border-b-2 border-gray-200 dark:border-gray-600" />
               <ul class="text-gray-300">
                 <li class="mb-4">
-                  <a href="#" class="inline-block text-base font-normal">Услуга 1</a>
+                  <NuxtLink href="/services" class="inline-block text-base font-normal">
+                    Услуга 1
+                  </NuxtLink>
                 </li>
                 <li class="mb-4">
-                  <a href="#" class="inline-block text-base font-normal">
-                    Услуга 2</a>
+                  <NuxtLink href="/services" class="inline-block text-base font-normal">
+                    Услуга 2
+                  </NuxtLink>
                 </li>
                 <li class="mb-4">
-                  <a href="#" class="inline-block text-base font-normal">Услуга 3</a>
+                  <NuxtLink href="/services" class="inline-block text-base font-normal">
+                    Услуга 3
+                  </NuxtLink>
                 </li>
               </ul>
             </div>
