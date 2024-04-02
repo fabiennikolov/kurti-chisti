@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   ],
 
   site: {
-    url: process.env.NUXT_PUBLIC_SITE_URL || 'http://localhost:3000',
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://kurti-chisti-izvozva.netlify.app/',
   },
 
   experimental: {
