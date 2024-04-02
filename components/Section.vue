@@ -6,21 +6,25 @@
           <div class="flex flex-wrap">
             <div class="w-full px-4 md:w-1/2">
               <img
-                src="~/assets/images/cleaning.jpg" alt=""
+                width="273" height="183"
+                src="~/assets/images/cleaning.jpg" alt="Услуга чистене"
                 class="mb-6 h-80 w-full rounded-lg object-cover"
               >
               <img
-                src="~/assets/images/bus.jpg" alt=""
+                width="4128" height="2322"
+                src="~/assets/images/bus.jpg" alt="Услуга Превоз"
                 class="h-80 w-full rounded-lg object-cover"
               >
             </div>
             <div class="w-full px-4 xl:mt-11 md:w-1/2">
               <img
-                src="~/assets/images/sectionimg.png" alt=""
+                width="626" height="417"
+                src="~/assets/images/sectionimg.png" alt="Снимка на Кърти-чисти-извозва"
                 class="mb-6 h-80 w-full rounded-lg object-cover"
               >
               <img
-                src="~/assets/images/sectionimg2.png" alt=""
+                width="626" height="364"
+                src="~/assets/images/sectionimg2.png" alt="Снимка на Кърти-чисти-извозва"
                 class="h-80 w-full rounded-lg object-cover"
               >
             </div>

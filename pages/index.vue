@@ -1,8 +1,8 @@
 <template>
   <div class="relative w-full px-12 py-28">
     <div class="relative z-10 mx-auto h-auto w-fit rounded-lg bg-transparent px-2 py-24 text-center md:py-24">
-      <h1 class="mb-12 text-center text-5xl font-bold">
-        Кърти Чисти Извозва
+      <h1 class="mb-12 text-center text-5xl font-bold text-black">
+        Кърти Чисти Извозва.
       </h1>
       <a class="mx-auto w-fit flex px-4 text-2xl font-bold" href="tel:+359879883894">
         <button class="rounded-md bg-gray-200 px-4 py-2 font-bold text-black ring-2 ring-black duration-300 hover:bg-gray-400">
@@ -12,7 +12,7 @@
     </div>
     <img alt="KVM background image" width="1905" height="700" src="~/assets/images/background.jpg" class="absolute inset-0 h-full w-full object-cover">
   </div>
-  <div class="mx-auto bg-gray-300 p-4 text-5 xl:p-12">
+  <div class="mx-auto bg-gray-300 p-4 text-5 text-black xl:p-12">
     <div class="mx-auto max-w-5xl space-y-3">
       <p>
         Ние сме вашият любим източник за практични, полезни и интелигентни решения за дома и офиса, които могат да направят всеки аспект от вашия натоварен живот по-лесен.
@@ -40,10 +40,10 @@
           Къртачните услуги включват изкопаване, демолиция, извозване на материали и други строителни дейности, извършвани от специализирани фирми и индивидуални изпълнители със специална техника и оборудване. Те са от съществено значение за подготовката на строителни площадки и реализацията на различни проекти в строителството и инфраструктурата.
         </p>
       </div>
-      <img src="~/assets/images/sectionimg.png" width="626" height="417" class="justify-self-center rounded-lg">
+      <img alt="Снимка на Кърти-чисти-извозва" src="~/assets/images/sectionimg.png" width="626" height="417" class="justify-self-center rounded-lg">
     </section>
     <section class="grid gap-4 md:grid-cols-[1fr_1.5fr]">
-      <img src="~/assets/images/moving.jpg" width="626" height="417" class="order-last justify-self-center rounded-lg md:order-first">
+      <img alt="Снимка на преместване" src="~/assets/images/moving.jpg" width="626" height="417" class="order-last justify-self-center rounded-lg md:order-first">
       <div>
         <h3 class="mb-4 font-bold uppercase">
           Извозващи услуги

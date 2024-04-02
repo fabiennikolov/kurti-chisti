@@ -9,13 +9,12 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
+    '@nuxtjs/seo',
   ],
 
   experimental: {
-    // when using generate, payload js assets included in sw precache manifest
-    // but missing on offline, disabling extraction it until fixed
     payloadExtraction: false,
-    inlineSSRStyles: false,
+    // inlineSSRStyles: false,
     renderJsonPayloads: true,
     typedPages: true,
   },
@@ -42,6 +41,9 @@ export default defineNuxtConfig({
   },
 
   app: {
+    seoMeta: {
+      ogImage: 'http://localhost:3000/_nuxt/assets/images/background.jpg',
+    },
     head: {
       viewport: 'width=device-width,initial-scale=1',
       link: [
