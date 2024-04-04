@@ -1,5 +1,5 @@
 <template>
-  <div class="page min-h-screen">
+  <div>
     <Nav />
     <main class="min-h-screen">
       <slot />
