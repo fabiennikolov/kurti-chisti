@@ -1,8 +1,8 @@
 <template>
-  <div class="mx-auto my-24 container">
-    <div class="mt-24 flex items-start justify-between">
-      <div class="w-1/2">
-        <h1 class="mb-4 text-3xl font-bold">
+  <div class="mx-auto my-4 container xl:my-24">
+    <div class="flex flex-col-reverse items-start justify-between p-4 xl:mt-24 xl:flex-row">
+      <div class="w-full w-full md:w-1/2">
+        <h1 class="mb-4 mt-4 text-3xl font-bold xl:mt-0">
           Ремонтира
         </h1>
         <p class="text-lg font-medium font-sans">
@@ -62,7 +62,7 @@
           всички необходими ремонтни дейности.
         </p>
       </div>
-      <div class="sticky top-24 w-1/3 border border-transparent rounded-lg p-2 shadow-xl duration-500">
+      <div class="w-full border border-transparent rounded-lg p-2 shadow-xl duration-500 xl:sticky xl:top-24 md:w-1/3">
         <img
           src="https://kurti-chisti-izvozva.bg/_nuxt/cleaning.BHpy88DE.jpg" alt="Service Image"
           class="h-auto w-full rounded-md"
