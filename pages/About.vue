@@ -2,7 +2,7 @@
   <div class="relative w-full px-12 py-28">
     <div class="text-centermd:bg-transparent relative z-10 mx-auto h-auto w-fit rounded-lg bg-transparent px-5 py-24 md:py-24">
       <h1 class="mb-12 text-center text-5xl font-bold text-gray-900 xl:text-6xl">
-        За нас
+        За нас Кърти Чисти Извозва
       </h1>
     </div>
     <img alt="KVM background image" width="1905" height="700" src="~/assets/images/background.jpg" class="absolute inset-0 h-full w-full object-cover">
@@ -27,6 +27,7 @@
         <div class="mb-10 w-full lg:mb-0 lg:w-1/2">
           <div class="relative">
             <img
+              width="1380" height="920"
               src="~/assets/images/moving.jpg" alt="aboutimage"
               class="relative z-10 h-full w-full rounded object-cover"
             >
