@@ -11,7 +11,12 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
     '@nuxtjs/seo',
+    '@nuxt/image',
   ],
+
+  image: {
+
+  },
 
   site: {
     url: process.env.NUXT_PUBLIC_SITE_URL || 'https://kurti-chisti-izvozva.bg',

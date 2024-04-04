@@ -101,7 +101,7 @@ export default {
           <NuxtLink to="/" class="inline h-14 w-14">
             <img width="400" height="400" src="~/assets/images/logo.svg" alt="Лого на Кърти чисти и извозва">
           </NuxtLink>
-          <button class="rounded-md text-white lg:hidden" @click="open = false">
+          <button type="button" value="Navigaiton bar" class="rounded-md text-white lg:hidden" @click="open = false">
             <svg
               xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
               class="bi bi-x-circle" viewBox="0 0 16 16"
@@ -152,7 +152,7 @@ export default {
               />
             </svg>
           </a>
-          <a href="tel:0879883894" class="mr-4 text-gray-400">
+          <a aria-label="Phone" href="tel:0879883894" class="mr-4 text-gray-400">
             <svg
               xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
               class="bi bi-whatsapp" viewBox="0 0 16 16"

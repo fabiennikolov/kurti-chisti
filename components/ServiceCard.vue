@@ -16,7 +16,7 @@ function redirectToService(redirect: string) {
     @click="redirectToService(link.redirect)"
   >
     <NuxtLink :to="link.redirect">
-      <img :src="image" class="mx-auto h-60 w-full rounded-md object-cover" width="340" height="240" alt="Снимка на Услугата">
+      <NuxtImg :src="image" class="mx-auto h-60 w-full rounded-md object-cover" width="340" height="240" alt="Снимка на Услугата" />
     </NuxtLink>
     <h3 class="text-center text-2xl font-extrabold transition-all-300">
       {{ title }}
