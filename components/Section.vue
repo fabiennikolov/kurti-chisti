@@ -96,7 +96,7 @@
           </ul>
           <NuxtLink
             to="/about"
-            class="border border-white rounded-md bg-gray-700 px-4 py-2 font-bold dark:bg-gray-300 dark:text-black"
+            class="border border-white rounded-md bg-gray-700 px-4 py-2 font-bold text-white dark:bg-gray-300 dark:text-black"
           >
             Научи повече
           </NuxtLink>

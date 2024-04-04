@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto container">
+  <div class="mx-auto my-24 container">
     <div class="mt-24 flex items-start justify-between">
       <div class="w-1/2">
         <h1 class="mb-4 text-3xl font-bold">
@@ -55,7 +55,7 @@
           </p>
         </div>
       </div>
-      <div class="sticky top-24 w-1/3">
+      <div class="sticky top-24 w-1/3 border border-transparent rounded-lg p-2 shadow-xl duration-500">
         <img
           src="https://kurti-chisti-izvozva.bg/_nuxt/background.BxnakYZG.jpg" alt="Service Image"
           class="h-auto w-full rounded-md"
