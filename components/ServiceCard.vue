@@ -12,7 +12,7 @@ function redirectToService(redirect: string) {
 <template>
   <div
     v-if="title && image && link"
-    class="max-w-90 w-full overflow-hidden b-2 b-transparent rounded-md p-2 py-2 shadow-xl drop-shadow-xl duration-500 space-y-6 dark:b-1 dark:b-white hover:bg-gray-200/75 dark:hover:bg-slate-600"
+    class="max-w-90 w-full cursor-pointer overflow-hidden b-2 b-transparent rounded-md p-2 py-2 shadow-xl drop-shadow-xl duration-500 space-y-6 dark:b-1 dark:b-white hover:bg-gray-200/75 dark:hover:bg-slate-600"
     @click="redirectToService(link.redirect)"
   >
     <NuxtLink :to="link.redirect">
