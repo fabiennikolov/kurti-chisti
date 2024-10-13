@@ -25,6 +25,7 @@
     "@iconify-json/twemoji": "^1.1.15",
     "@nuxtjs/color-mode": "^3.3.3",
     "@nuxtjs/seo": "2.0.0-rc.10",
+    "@nuxtjs/sitemap": "^6.1.1",
     "@pinia/nuxt": "^0.5.1",
     "@unocss/eslint-config": "^0.56.5",
     "@unocss/nuxt": "^0.56.5",

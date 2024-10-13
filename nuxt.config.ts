@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     '@nuxtjs/seo',
     '@nuxt/image',
+    '@nuxtjs/sitemap',
   ],
 
   image: {
@@ -20,6 +21,7 @@ export default defineNuxtConfig({
 
   site: {
     url: process.env.NUXT_PUBLIC_SITE_URL || 'https://kurti-chisti-izvozva.bg',
+    trailingSlash: true,
   },
 
   experimental: {
